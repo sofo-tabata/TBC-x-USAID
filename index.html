@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="files/icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="reset.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="main.css" />
+  <title>TBC x USAID</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar wrapper navbar-expand-lg">
+      <div class="container-fluid p-0">
+        <a class="navbar-brand" href="https://www.tbcacademy.ge/">
+          <svg class="logo" preserveAspectRatio="xMidYMid meet" data-bbox="-0.049 -0.035 160.05 35.031"
+            xmlns="http://www.w3.org/2000/svg" viewBox="-0.049 -0.035 160.05 35.031" height="36" width="160"
+            data-type="color" role="presentation" aria-hidden="true">
+            <g>
+              <g clip-path="url(#b290f575-40bd-4c29-b19c-ded35374c9f9_comp-ktjxmlim)">
+                <path fill="#00ADEE"
+                  d="M17.72 20.126a3.738 3.738 0 0 1-1.187 3.079A42.393 42.393 0 0 1 3.49 31.5a6 6 0 0 1-1.37.365 1.043 1.043 0 0 1-1.258-1.083 2.46 2.46 0 0 1 .137-.652C2.27 26.49 6.62 18.587 8.472 15.326c2.315-4.076 8.4-13.898 9.32-15a.332.332 0 0 1 .398-.098c.15.079.267.17.117.711-.796 2.915-1.956 9.255-.756 17.91.065.456.123.86.156 1.245"
+                  data-color="1"></path>
+                <path fill="#00ADEE"
+                  d="M19.187 24.287a3.737 3.737 0 0 1 3.26-.508 42.26 42.26 0 0 1 13.697 7.134c.372.294.706.631.997 1.005a1.042 1.042 0 0 1-.306 1.63 2.373 2.373 0 0 1-.652.202c-3.79.718-12.81.907-16.56.933-4.688 0-16.232-.326-17.608-.587a.32.32 0 0 1-.28-.293c0-.17 0-.32.554-.463 2.922-.764 8.987-2.935 15.887-8.296.359-.28.652-.535 1.004-.757"
+                  data-color="1"></path>
+                <path fill="#00ADEE"
+                  d="M22.05 20.929a3.73 3.73 0 0 1-2.067-2.563 42.333 42.333 0 0 1-.652-15.431 6 6 0 0 1 .365-1.37 1.043 1.043 0 0 1 1.565-.548c.182.126.348.273.496.437 2.51 2.929 7.174 10.644 9.078 13.872 2.374 4.05 7.826 14.231 8.309 15.561a.32.32 0 0 1-.111.392c-.144.098-.287.15-.652-.248-2.126-2.146-7.037-6.313-15.13-9.613-.425-.17-.803-.32-1.162-.49"
+                  data-color="1"></path>
+                <path fill="#00ADEE"
+                  d="M17.386 19.382c.163 1.65.247 2.51-1.096 3.913a44.35 44.35 0 0 1-8.478 6.235 36.381 36.381 0 0 1-5.074 2.478c-1.148.411-2.107.587-2.61-.241a1.597 1.597 0 0 1 0-1.46c1.24-3.366 4.827-9.653 7.175-13.742l.737-1.305c3.593-6.196 8.354-13.78 9.287-15 .137-.176.385-.385.613-.254a.45.45 0 0 1 .163.482c0 .033-.065.255-.085.34-1.539 6.26-1.376 12.39-.652 18.521"
+                  data-color="1"></path>
+                <path fill="#00ADEE"
+                  d="M22.637 21.313c-1.513-.69-2.302-1.05-2.85-2.915a44.167 44.167 0 0 1-1.174-10.435c-.013-1.885.118-3.77.392-5.635.215-1.2.548-2.12 1.506-2.12A1.611 1.611 0 0 1 21.77.94c2.296 2.765 5.948 9.007 8.322 13.044.248.417.495.848.743 1.304 3.574 6.209 7.761 14.126 8.342 15.548.085.202.143.522-.085.652a.457.457 0 0 1-.502-.104l-.248-.235c-4.65-4.474-10.05-7.395-15.705-9.835z"
+                  data-color="1"></path>
+                <path fill="#00ADEE"
+                  d="M18.339 24.887c1.35-.965 2.054-1.467 3.946-1.01a44.05 44.05 0 0 1 9.633 4.226 36.58 36.58 0 0 1 4.682 3.156c.933.783 1.565 1.533 1.083 2.361a1.598 1.598 0 0 1-1.266.724c-3.534.606-10.767.652-15.476.652h-1.48c-7.174 0-16.116-.346-17.61-.548-.22 0-.52-.137-.52-.404a.45.45 0 0 1 .338-.378l.333-.098c6.196-1.794 11.426-5.009 16.37-8.687"
+                  data-color="1"></path>
+                <path fill="#ffffff" d="m48.77 20.818.965-.966-2.687-2.686a.683.683 0 0 0-.965.965l2.687 2.687z"
+                  data-color="2"></path>
+                <path fill="#ffffff"
+                  d="m51.66 21.776 3.671-3.678a.653.653 0 0 0 0-.965.692.692 0 0 0-.965 0l-3.672 3.678-.965.965-3.62 3.62a.653.653 0 0 0 0 .959.652.652 0 0 0 .966 0l3.62-3.613 3.645 3.645a.691.691 0 0 0 .965 0 .653.653 0 0 0 0-.965l-3.645-3.646z"
+                  data-color="2"></path>
+                <path fill="#ffffff"
+                  d="M70.71 16.526c.116.393.285.768.502 1.116.202.313.476.704.822 1.167.35.443.675.907.972 1.39.276.462.495.957.652 1.473a6.86 6.86 0 0 1 .267 2.009 5.394 5.394 0 0 1-.652 2.68 4.174 4.174 0 0 1-1.709 1.69 5.18 5.18 0 0 1-2.426.567 5.043 5.043 0 0 1-2.406-.568 4.141 4.141 0 0 1-1.69-1.676 5.426 5.426 0 0 1-.613-2.68c.008-.66.09-1.316.248-1.957l2.609.092a7.68 7.68 0 0 0-.183 1.663 3.359 3.359 0 0 0 .548 2.028 1.761 1.761 0 0 0 1.52.75 1.826 1.826 0 0 0 1.493-.652c.4-.571.598-1.26.561-1.957a3.856 3.856 0 0 0-.365-1.741 10.935 10.935 0 0 0-1.115-1.702 13.844 13.844 0 0 1-1.005-1.448 6.06 6.06 0 0 1-.652-1.546 7.077 7.077 0 0 1-.222-2.126h2.655c-.006.483.06.964.195 1.428"
+                  data-color="2"></path>
+                <path fill="#ffffff"
+                  d="M78.008 28.063a3.972 3.972 0 0 1-1.696-1.539 4.304 4.304 0 0 1-.587-2.237 4.623 4.623 0 0 1 .124-1.108l2.609.104a3.368 3.368 0 0 0-.072.75 2.35 2.35 0 0 0 .607 1.722 2.172 2.172 0 0 0 1.617.652 2.218 2.218 0 0 0 1.585-.567 1.959 1.959 0 0 0 .593-1.507 1.847 1.847 0 0 0-.56-1.435 2.264 2.264 0 0 0-1.579-.509h-.698V20.2h.88c.467.026.928-.11 1.305-.386a1.303 1.303 0 0 0 .457-1.063 1.441 1.441 0 0 0-.483-1.102 1.956 1.956 0 0 0-1.304-.483l.137-2.178a5.102 5.102 0 0 1 2.27.476 3.554 3.554 0 0 1 1.512 1.305c.363.575.55 1.244.535 1.924a3.156 3.156 0 0 1-.45 1.67c-.315.5-.79.88-1.35 1.075a2.609 2.609 0 0 1 1.454 1.161c.369.6.557 1.292.542 1.996a3.822 3.822 0 0 1-.574 2.08 3.913 3.913 0 0 1-1.683 1.442 5.87 5.87 0 0 1-2.609.528 5.713 5.713 0 0 1-2.608-.554"
+                  data-color="2"></path>
+                <path fill="#ffffff"
+                  d="M93.686 16.526a4.5 4.5 0 0 0 .496 1.116c.202.313.476.704.822 1.167.35.443.675.907.972 1.39.279.46.498.956.652 1.473.19.652.281 1.33.267 2.009a5.394 5.394 0 0 1-.652 2.68 4.194 4.194 0 0 1-1.715 1.69 5.163 5.163 0 0 1-2.426.567 5.04 5.04 0 0 1-2.407-.568 4.121 4.121 0 0 1-1.682-1.676 5.432 5.432 0 0 1-.62-2.68c.007-.66.09-1.316.248-1.957l2.608.091a8.104 8.104 0 0 0-.176 1.664 3.359 3.359 0 0 0 .542 2.002 1.78 1.78 0 0 0 1.526.75 1.807 1.807 0 0 0 1.487-.652c.406-.569.603-1.26.56-1.957a3.77 3.77 0 0 0-.365-1.741 10.93 10.93 0 0 0-1.115-1.702 14.878 14.878 0 0 1-1.004-1.448 6.565 6.565 0 0 1-.652-1.546 7.298 7.298 0 0 1-.222-2.126h2.66c-.005.483.061.964.197 1.428"
+                  data-color="2"></path>
+                <path fill="#ffffff"
+                  d="M106.691 27.04a5.531 5.531 0 0 0-2.283-.418h-4.409v-1.956h1.337a5.352 5.352 0 0 1-2.008-2.042 5.869 5.869 0 0 1-.757-2.935 5.746 5.746 0 0 1 .555-2.648c.326-.66.842-1.21 1.48-1.578a4.141 4.141 0 0 1 2.054-.515 4.022 4.022 0 0 1 1.859.437 2.65 2.65 0 0 1 1.259 1.259 2.931 2.931 0 0 1 1.304-1.246 4.144 4.144 0 0 1 1.924-.45 4.43 4.43 0 0 1 2.185.535 3.914 3.914 0 0 1 1.539 1.493c.382.68.576 1.45.561 2.23a4.133 4.133 0 0 1-.574 2.172 3.908 3.908 0 0 1-1.578 1.481 4.815 4.815 0 0 1-2.27.522 4.89 4.89 0 0 1-2.276-.515 4.029 4.029 0 0 1-1.591-1.435 3.86 3.86 0 0 1-.574-2.1v-.359a2.01 2.01 0 0 0-.398-1.304 1.305 1.305 0 0 0-1.07-.496 1.425 1.425 0 0 0-1.226.62 3.263 3.263 0 0 0-.45 1.917 4.443 4.443 0 0 0 1.226 3.385 4.92 4.92 0 0 0 3.02 1.337l.587.058a5.606 5.606 0 0 1 3.117 1.2 3.84 3.84 0 0 1 1.305 2.76h-2.694a1.82 1.82 0 0 0-1.102-1.403l-.052-.006zm3.509-6.431c.347-.403.527-.923.502-1.454a2.105 2.105 0 0 0-.522-1.487 1.676 1.676 0 0 0-1.304-.542 1.723 1.723 0 0 0-1.305.542 2.316 2.316 0 0 0 0 2.895 1.724 1.724 0 0 0 1.305.555 1.69 1.69 0 0 0 1.304-.542"
+                  data-color="2"></path>
+                <path fill="#ffffff"
+                  d="M117.126 28.064a4.043 4.043 0 0 1-1.663-1.52 4.219 4.219 0 0 1-.587-2.224c.003-.496.082-.989.234-1.461l2.55.104c-.077.365-.12.736-.13 1.11a2.291 2.291 0 0 0 .554 1.61 1.999 1.999 0 0 0 1.533.6 1.957 1.957 0 0 0 2.107-2.159v-4.943a1.965 1.965 0 0 0-1.183-1.797 1.956 1.956 0 0 0-2.117.375 1.86 1.86 0 0 0-.39.644 1.853 1.853 0 0 0-.106.745 3.5 3.5 0 0 0 .072.75l-2.661.072a6.492 6.492 0 0 1-.105-1.18 3.524 3.524 0 0 1 .607-2.042 3.911 3.911 0 0 1 1.65-1.357 5.58 5.58 0 0 1 2.328-.469 5.217 5.217 0 0 1 2.335.509 3.849 3.849 0 0 1 1.624 1.467c.402.688.606 1.473.587 2.27v4.956a4.726 4.726 0 0 1-.574 2.374 3.836 3.836 0 0 1-1.637 1.566 5.468 5.468 0 0 1-2.55.554c-.859.02-1.71-.17-2.478-.554z"
+                  data-color="2"></path>
+                <path fill="#ffffff"
+                  d="M129.008 28.05a4.087 4.087 0 0 1-1.676-1.578 4.571 4.571 0 0 1-.58-2.315 4.798 4.798 0 0 1 .554-2.315 3.912 3.912 0 0 1 1.572-1.579 4.703 4.703 0 0 1 2.335-.56 3.913 3.913 0 0 1 1.493.28c.42.168.795.432 1.096.77v-1.781a1.725 1.725 0 0 0-.652-1.383 2.688 2.688 0 0 0-3.053-.039 1.452 1.452 0 0 0-.606 1.135l-2.707-.091a3.117 3.117 0 0 1 .653-1.918 4.067 4.067 0 0 1 1.728-1.304 6.244 6.244 0 0 1 2.433-.463 5.649 5.649 0 0 1 2.465.528 4.135 4.135 0 0 1 1.728 1.48c.429.64.657 1.395.652 2.166v4.976a4.42 4.42 0 0 1-1.304 3.333 4.898 4.898 0 0 1-3.555 1.232 5.542 5.542 0 0 1-2.608-.567l.032-.007zm4.155-2.25a1.906 1.906 0 0 0 .606-1.454v-.34a1.964 1.964 0 0 0-.606-1.473 2.245 2.245 0 0 0-1.572-.561 2.199 2.199 0 1 0 0 4.39 2.244 2.244 0 0 0 1.572-.562z"
+                  data-color="2"></path>
+                <path fill="#ffffff"
+                  d="M139.267 25.363a20.419 20.419 0 0 1-.261-3.43v-2.055a5.553 5.553 0 0 1 .606-2.674 4.16 4.16 0 0 1 1.67-1.715 5.218 5.218 0 0 1 4.813 0 4.163 4.163 0 0 1 1.67 1.703c.422.82.63 1.732.606 2.654v2.087a20.76 20.76 0 0 1-.261 3.45 21.28 21.28 0 0 1-.737 3.059h-2.569c.618-2.079.93-4.236.926-6.405v-2.054a3.262 3.262 0 0 0-.541-2.029 1.91 1.91 0 0 0-1.491-.718 1.905 1.905 0 0 0-1.49.718 3.35 3.35 0 0 0-.541 2.048v2.035a22.328 22.328 0 0 0 .926 6.405h-2.609a22.74 22.74 0 0 1-.737-3.079"
+                  data-color="2"></path>
+                <path fill="#ffffff"
+                  d="M156.811 16.526c.114.393.281.768.496 1.116.202.313.476.704.822 1.167.351.443.675.907.971 1.39a6.66 6.66 0 0 1 .9 3.482 5.39 5.39 0 0 1-.652 2.68 4.141 4.141 0 0 1-1.709 1.69 5.163 5.163 0 0 1-2.426.567 5.041 5.041 0 0 1-2.406-.568 4.141 4.141 0 0 1-1.689-1.676 5.419 5.419 0 0 1-.613-2.68c.007-.66.09-1.316.247-1.957l2.609.092a8.085 8.085 0 0 0-.182 1.663 3.363 3.363 0 0 0 .547 2.028 1.765 1.765 0 0 0 1.526.75 1.824 1.824 0 0 0 1.487-.652c.403-.57.601-1.26.561-1.957a3.768 3.768 0 0 0-.365-1.741 10.935 10.935 0 0 0-1.115-1.702 13.76 13.76 0 0 1-1.004-1.448 6.574 6.574 0 0 1-.653-1.546 7.054 7.054 0 0 1-.221-2.126h2.66a4.93 4.93 0 0 0 .196 1.428"
+                  data-color="2"></path>
+              </g>
+              <defs fill="none">
+                <clipPath id="b290f575-40bd-4c29-b19c-ded35374c9f9_comp-ktjxmlim">
+                  <path fill="#ffffff" d="M160 0v35.003H0V0h160z"></path>
+                </clipPath>
+              </defs>
+            </g>
+          </svg>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarRight"
+          aria-controls="navbarRight" aria-expanded="false" aria-label="Toggle navigation">
+          <div id="toggler-svg">
+            <div class="line top"></div>
+            <div class="line middle"></div>
+            <div class="line bottom"></div>
+          </div>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-body">
+            <div class="offcanvas-padding">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="https://www.tbcacademy.ge/">მთავარი</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.tbcacademy.ge/it-academy">TBC IT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">TBC x USAID</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.tbcacademy.ge/risks-academy">რისკები</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="navbar-placeholder"></div>
+  </header>
+
+  <main>
+    <section class="cover">
+      <h1>
+        <span>TBC x USAID</span>
+        <span>ᲢᲔᲥᲜᲝᲚᲝᲒᲘᲣᲠᲘ ᲒᲐᲜᲐᲗᲚᲔᲑᲘᲡᲗᲕᲘᲡ</span>
+      </h1>
+    </section>
+    <article class="tbc-usaid-article wrapper">
+      <p>
+        „ TBC x USAID - ტექნოლოგიური განათლებისთვის “ პროგრამა საინფორმაციო
+        ტექნოლოგიებით დაინტერესებულ ადამიანებს გთავაზობთ სრულად დაფინანსებულ
+        ონლაინ საგანმანათლებლო პრაქტიკულ კურსებს სხვადასხვა ICT მიმართულებით.
+        წარმატებულ კურსდამთავრებულებს ეძლევათ შესაძლებლობა დასაქმდნენ თიბისისა
+        და მის პარტნიორ კომპანიებში.
+      </p>
+      <a class="see-more" href="https://www.tbcacademy.ge/usaid-about">გაიგე მეტი</a>
+    </article>
+    <section class="courses wrapper">
+      <h2>სასწავლო კურსები</h2>
+      <ul class="course-list">
+        <li class="card">
+          <img src="files/ios.webp" class="card-img-top" alt="iOS Developement" />
+          <div class="card-body">
+            <h5 class="card-title">iOS Development</h5>
+            <p class="card-text">რეგისტრაცია დასრულებულია</p>
+            <div class="course-details">
+              <svg preserveAspectRatio="xMidYMid meet" data-bbox="1.833 2.667 13.334 10.666"
+                xmlns="http://www.w3.org/2000/svg" viewBox="1.833 2.667 13.334 10.666" height="16" width="17"
+                data-type="color" role="presentation" aria-hidden="true">
+                <g>
+                  <path fill="#00AEEF"
+                    d="m10.3 2.867 4.667 4.666a.645.645 0 0 1 0 .934L10.3 13.133a.644.644 0 0 1-.933 0 .644.644 0 0 1 0-.933L12.9 8.667H2.5c-.4 0-.667-.267-.667-.667s.267-.667.667-.667h10.4L9.367 3.8a.605.605 0 0 1-.2-.467c0-.2.066-.333.2-.466a.644.644 0 0 1 .933 0Z"
+                    data-color="1"></path>
+                </g>
+              </svg>
+              <a href="https://www.tbcacademy.ge/usaid/ios-development"
+                class="d-inline-block details-link details-link">კურსის დეტალები</a>
+            </div>
+          </div>
+        </li>
+        <li class="card">
+          <img src="files/react.webp" class="card-img-top" alt="react" />
+          <div class="card-body">
+            <h5 class="card-title">React</h5>
+            <p class="card-text">რეგისტრაცია დასრულებულია</p>
+            <div class="course-details">
+              <svg preserveAspectRatio="xMidYMid meet" data-bbox="1.833 2.667 13.334 10.666"
+                xmlns="http://www.w3.org/2000/svg" viewBox="1.833 2.667 13.334 10.666" height="16" width="17"
+                data-type="color" role="presentation" aria-hidden="true">
+                <g>
+                  <path fill="#00AEEF"
+                    d="m10.3 2.867 4.667 4.666a.645.645 0 0 1 0 .934L10.3 13.133a.644.644 0 0 1-.933 0 .644.644 0 0 1 0-.933L12.9 8.667H2.5c-.4 0-.667-.267-.667-.667s.267-.667.667-.667h10.4L9.367 3.8a.605.605 0 0 1-.2-.467c0-.2.066-.333.2-.466a.644.644 0 0 1 .933 0Z"
+                    data-color="1"></path>
+                </g>
+              </svg>
+              <a href="https://www.tbcacademy.ge/usaid/react" class="d-inline-block details-link details-link">კურსის
+                დეტალები</a>
+            </div>
+          </div>
+        </li>
+        <li class="card">
+          <img src="files/python-intro.webp" class="card-img-top" alt="python" />
+          <div class="card-body">
+            <h5 class="card-title">Intro to Python</h5>
+            <p class="card-text">რეგისტრაცია დასრულებულია</p>
+            <div class="course-details">
+              <svg preserveAspectRatio="xMidYMid meet" data-bbox="1.833 2.667 13.334 10.666"
+                xmlns="http://www.w3.org/2000/svg" viewBox="1.833 2.667 13.334 10.666" height="16" width="17"
+                data-type="color" role="presentation" aria-hidden="true">
+                <g>
+                  <path fill="#00AEEF"
+                    d="m10.3 2.867 4.667 4.666a.645.645 0 0 1 0 .934L10.3 13.133a.644.644 0 0 1-.933 0 .644.644 0 0 1 0-.933L12.9 8.667H2.5c-.4 0-.667-.267-.667-.667s.267-.667.667-.667h10.4L9.367 3.8a.605.605 0 0 1-.2-.467c0-.2.066-.333.2-.466a.644.644 0 0 1 .933 0Z"
+                    data-color="1"></path>
+                </g>
+              </svg>
+              <a href="https://www.tbcacademy.ge/usaid/python-basic"
+                class="d-inline-block details-link details-link">კურსის დეტალები</a>
+            </div>
+          </div>
+        </li>
+        <li class="card">
+          <img src="files/python-advanced.webp" class="card-img-top" alt="python" />
+          <div class="card-body">
+            <h5 class="card-title">Advanced Python</h5>
+            <p class="card-text">რეგისტრაცია დასრულებულია</p>
+            <div class="course-details">
+              <svg preserveAspectRatio="xMidYMid meet" data-bbox="1.833 2.667 13.334 10.666"
+                xmlns="http://www.w3.org/2000/svg" viewBox="1.833 2.667 13.334 10.666" height="16" width="17"
+                data-type="color" role="presentation" aria-hidden="true">
+                <g>
+                  <path fill="#00AEEF"
+                    d="m10.3 2.867 4.667 4.666a.645.645 0 0 1 0 .934L10.3 13.133a.644.644 0 0 1-.933 0 .644.644 0 0 1 0-.933L12.9 8.667H2.5c-.4 0-.667-.267-.667-.667s.267-.667.667-.667h10.4L9.367 3.8a.605.605 0 0 1-.2-.467c0-.2.066-.333.2-.466a.644.644 0 0 1 .933 0Z"
+                    data-color="1"></path>
+                </g>
+              </svg>
+              <a href="https://www.tbcacademy.ge/usaid/python-advance"
+                class="d-inline-block details-link details-link">კურსის დეტალები</a>
+            </div>
+          </div>
+        </li>
+        <li class="card">
+          <img src="files/cybersecurity.webp" class="card-img-top" alt="cybersecurity" />
+          <div class="card-body">
+            <h5 class="card-title">Advanced Cybersecurity Course</h5>
+            <p class="card-text">რეგისტრაცია დასრულებულია</p>
+            <div class="course-details">
+              <svg preserveAspectRatio="xMidYMid meet" data-bbox="1.833 2.667 13.334 10.666"
+                xmlns="http://www.w3.org/2000/svg" viewBox="1.833 2.667 13.334 10.666" height="16" width="17"
+                data-type="color" role="presentation" aria-hidden="true">
+                <g>
+                  <path fill="#00AEEF"
+                    d="m10.3 2.867 4.667 4.666a.645.645 0 0 1 0 .934L10.3 13.133a.644.644 0 0 1-.933 0 .644.644 0 0 1 0-.933L12.9 8.667H2.5c-.4 0-.667-.267-.667-.667s.267-.667.667-.667h10.4L9.367 3.8a.605.605 0 0 1-.2-.467c0-.2.066-.333.2-.466a.644.644 0 0 1 .933 0Z"
+                    data-color="1"></path>
+                </g>
+              </svg>
+              <a href="https://www.tbcacademy.ge/usaid/information-security-advance"
+                class="d-inline-block details-link details-link">კურსის დეტალები</a>
+            </div>
+          </div>
+        </li>
+        <li class="card">
+          <img src="files/tot.webp" class="card-img-top" alt="training of trainers" />
+          <div class="card-body">
+            <h5 class="card-title">ToT - Training of Trainers</h5>
+            <p class="card-text">რეგისტრაცია დასრულებულია</p>
+            <div class="course-details">
+              <svg preserveAspectRatio="xMidYMid meet" data-bbox="1.833 2.667 13.334 10.666"
+                xmlns="http://www.w3.org/2000/svg" viewBox="1.833 2.667 13.334 10.666" height="16" width="17"
+                data-type="color" role="presentation" aria-hidden="true">
+                <g>
+                  <path fill="#00AEEF"
+                    d="m10.3 2.867 4.667 4.666a.645.645 0 0 1 0 .934L10.3 13.133a.644.644 0 0 1-.933 0 .644.644 0 0 1 0-.933L12.9 8.667H2.5c-.4 0-.667-.267-.667-.667s.267-.667.667-.667h10.4L9.367 3.8a.605.605 0 0 1-.2-.467c0-.2.066-.333.2-.466a.644.644 0 0 1 .933 0Z"
+                    data-color="1"></path>
+                </g>
+              </svg>
+              <a href="https://www.tbcacademy.ge/usaid/training-of-trainers"
+                class="d-inline-block details-link details-link">კურსის დეტალები</a>
+            </div>
+          </div>
+        </li>
+        <li class="card">
+          <img src="files/blockchain.webp" class="card-img-top" alt="blockchain" />
+          <div class="card-body">
+            <h5 class="card-title">Blockchain</h5>
+            <p class="card-text">რეგისტრაცია დასრულებულია</p>
+            <div class="course-details">
+              <svg preserveAspectRatio="xMidYMid meet" data-bbox="1.833 2.667 13.334 10.666"
+                xmlns="http://www.w3.org/2000/svg" viewBox="1.833 2.667 13.334 10.666" height="16" width="17"
+                data-type="color" role="presentation" aria-hidden="true">
+                <g>
+                  <path fill="#00AEEF"
+                    d="m10.3 2.867 4.667 4.666a.645.645 0 0 1 0 .934L10.3 13.133a.644.644 0 0 1-.933 0 .644.644 0 0 1 0-.933L12.9 8.667H2.5c-.4 0-.667-.267-.667-.667s.267-.667.667-.667h10.4L9.367 3.8a.605.605 0 0 1-.2-.467c0-.2.066-.333.2-.466a.644.644 0 0 1 .933 0Z"
+                    data-color="1"></path>
+                </g>
+              </svg>
+              <a href="https://www.tbcacademy.ge/usaid/blockchain"
+                class="d-inline-block details-link details-link details-link">კურსის დეტალები</a>
+            </div>
+          </div>
+        </li>
+        <li class="card">
+          <img src="files/devops.webp" class="card-img-top" alt="DevOps" />
+          <div class="card-body">
+            <h5 class="card-title">DevOps</h5>
+            <p class="card-text">რეგისტრაცია დასრულებულია</p>
+            <div class="course-details">
+              <svg preserveAspectRatio="xMidYMid meet" data-bbox="1.833 2.667 13.334 10.666"
+                xmlns="http://www.w3.org/2000/svg" viewBox="1.833 2.667 13.334 10.666" height="16" width="17"
+                data-type="color" role="presentation" aria-hidden="true">
+                <g>
+                  <path fill="#00AEEF"
+                    d="m10.3 2.867 4.667 4.666a.645.645 0 0 1 0 .934L10.3 13.133a.644.644 0 0 1-.933 0 .644.644 0 0 1 0-.933L12.9 8.667H2.5c-.4 0-.667-.267-.667-.667s.267-.667.667-.667h10.4L9.367 3.8a.605.605 0 0 1-.2-.467c0-.2.066-.333.2-.466a.644.644 0 0 1 .933 0Z"
+                    data-color="1"></path>
+                </g>
+              </svg>
+              <a href="https://www.tbcacademy.ge/usaid/devops" class="d-inline-block details-link">კურსის დეტალები</a>
+            </div>
+          </div>
+        </li>
+        <li class="card">
+          <img src="files/information-security.webp" class="card-img-top" alt="Information Security Governance" />
+          <div class="card-body">
+            <h5 class="card-title">Information Security Governance</h5>
+            <p class="card-text">რეგისტრაცია დასრულებულია</p>
+            <div class="course-details">
+              <svg preserveAd-inline-blockspectRatio="xMidYMid meet" data-bbox="1.833 2.667 13.334 10.666"
+                xmlns="http://www.w3.org/2000/svg" viewBox="1.833 2.667 13.334 10.666" height="16" width="17"
+                data-type="color" role="presentation" aria-hidden="true">
+                <g>
+                  <path fill="#00AEEF"
+                    d="m10.3 2.867 4.667 4.666a.645.645 0 0 1 0 .934L10.3 13.133a.644.644 0 0 1-.933 0 .644.644 0 0 1 0-.933L12.9 8.667H2.5c-.4 0-.667-.267-.667-.667s.267-.667.667-.667h10.4L9.367 3.8a.605.605 0 0 1-.2-.467c0-.2.066-.333.2-.466a.644.644 0 0 1 .933 0Z"
+                    data-color="1"></path>
+                </g>
+              </svg>
+              <a href="https://www.tbcacademy.ge/usaid/information-security-basic"
+                class="d-inline-block details-link">კურსის დეტალები</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="project-partners">
+      <h2 class="wrapper">პროექტის პარტნიორები</h2>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel"
+        data-bs-interval="2000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-item-wrapper wrapper">
+              <img src="files/USAID.webp" class="d-block" alt="USAID logo" />
+              <img src="files/space-int.webp" class="d-block" alt="Space logo" />
+              <img src="files/tnet.webp" class="d-block" alt="Tnet logo" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-item-wrapper wrapper">
+              <img src="files/tegeta.webp" class="d-block" alt="Tegeta logo" />
+              <img src="files/spectre.webp" class="d-block" alt="Spectre logo" />
+              <img src="files/tbc-leasing.webp" class="d-block" alt="TBC-leasing logo" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-item-wrapper wrapper">
+              <img src="files/UFC.webp" class="d-block" alt="UFC logo" />
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#carouselExampleFade" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 1024 1024">
+              <path fill="#fff"
+                d="M752.145 0c8.685 0 17.572 3.434 24.237 10.099c13.33 13.33 13.33 35.143 0 48.473L320.126 515.03l449.591 449.591c13.33 13.33 13.33 35.144 0 48.474c-13.33 13.33-35.142 13.33-48.472 0L247.418 539.268c-13.33-13.33-13.33-35.144 0-48.474L727.91 10.1C734.575 3.435 743.46.002 752.146.002z" />
+            </svg>
+          </span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#carouselExampleFade" role="button" data-bs-slide="next">
+          <span class="carousel-control-next" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 1024 1024">
+              <g transform="rotate(180 512 512)">
+                <path fill="#fff"
+                  d="M752.145 0c8.685 0 17.572 3.434 24.237 10.099c13.33 13.33 13.33 35.143 0 48.473L320.126 515.03l449.591 449.591c13.33 13.33 13.33 35.144 0 48.474c-13.33 13.33-35.142 13.33-48.472 0L247.418 539.268c-13.33-13.33-13.33-35.144 0-48.474L727.91 10.1C734.575 3.435 743.46.002 752.146.002z" />
+              </g>
+            </svg>
+          </span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="questions-and-answers wrapper">
+      <h2>
+        ხშირად დასმული კითხვები
+        <span><a href="https://www.tbcacademy.ge/usaid-faq" class="see-more">ყველა კითხვა</a></span>
+      </h2>
+      <ul>
+        <li class="question">
+          <button class="question-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1"
+            aria-expanded="false" aria-controls="collapseExample1">
+            <div class="button-wrapper">
+              <h3 class="question-title">
+                როგორ ხდება კურსებზე რეგისტრაცია და შერჩევა?
+              </h3>
+              <div>
+                <svg id="arrow-1" class="arrow" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                  viewBox="0 0 24 24">
+                  <g transform="rotate(-90 12 12)">
+                    <path fill="currentColor"
+                      d="M12.727 3.687a1 1 0 1 0-1.454-1.374l-8.5 9a1 1 0 0 0 0 1.374l8.5 9.001a1 1 0 1 0 1.454-1.373L4.875 12z" />
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </button>
+
+          <div class="collapse" id="collapseExample1">
+            <div class="card card-body">
+              <p>კურსზე რეგისტრაციისთვის უნდა გაიარო რამდენიმე ეტაპი:</p>
+              <div class="space"></div>
+              <p class="stage">
+                <b>I ეტაპი</b> - პირველ ეტაპზე საჭიროა, შეავსო სასურველი
+                კურსისთვის განკუთვნილი სარეგისტრაციო ფორმა, რომელიც
+                განთავსებულია კურსის შიდა გვერდზე. კურსზე რეგისტრაციის
+                დასრულების შემდეგ დაიწყება შემოსული განცხადებების გადარჩევა.
+              </p>
+              <p class="stage">
+                <b>II ეტაპი</b> - შერჩევის მეორე ეტაპი კურსების მიხედვით
+                განსხვავებულია, ზოგიერთი კურსისთვის მოიცავს პრე-ტესტს, ზოგიერთ
+                კურსზე კი უნარების ტესტს, სადაც მინიმალური ზღვარის გადალახვის
+                შემთხვევაში გადახვალ შერჩევის შემდეგ ეტაპზე.
+              </p>
+              <p class="stage">
+                <b>III ეტაპი</b> - მესამე ეტაპი კურსების მიხედვით
+                განსხვავდება: Advance კურსებზე, სადაც მოითხოვება გარკვეული
+                ტექნიკური ცოდნა, მონაწილეებმა უნდა დაწერონ ტექნიკური ტესტი
+                ცოდნის დონის შესამოწმებლად, ხოლო კურსებზე, სადაც რაიმე ტიპის
+                წინასწარი ცოდნა მოთხოვნილი არ არის უნდა შეასრულოთ ტექნიკური
+                დავალება, რაც თქვენი კვლევისა და თვითსწავლის უნარს ამოწმებს.
+              </p>
+              <p class="stage">
+                <b>IV ეტაპი</b> - შერჩევის ბოლო მეოთხე ეტაპი მოიცავს
+                გასაუბრებას შესარჩევ კომისიასთან. გასაუბრების წარმატებით
+                გავლის შემთხვევაში ჩაირიცხებით კურსზე და გაფორმდება შესაბამისი
+                ხელშეკრულება. * სანამ კურსზე დარეგისტრირდები მნიშვნელოვანია,
+                ყურადღებით წაიკითხო კურსის აღწერა, ნახო რას ისწავლი კურსის
+                განმავლობაში და გაიგო გააჩნია თუ არა კურსს დასწრების
+                წინაპირობა.
+              </p>
+              <div class="space"></div>
+              <p>
+                &#42; სანამ კურსზე დარეგისტრირდები მნიშვნელოვანია, ყურადღებით
+                წაიკითხო კურსის აღწერა, ნახო რას ისწავლი კურსის განმავლობაში
+                და გაიგო გააჩნია თუ არა კურსს დასწრების წინაპირობა.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="question">
+          <button class="question-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2"
+            aria-expanded="false" aria-controls="collapseExample2">
+            <div class="button-wrapper">
+              <h3 class="question-title">
+                შემიძლია თუ არა ერთზე მეტ კურსზე რეგისტრაცია?
+              </h3>
+              <div>
+                <svg id="arrow-2" class="arrow" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                  viewBox="0 0 24 24">
+                  <g transform="rotate(-90 12 12)">
+                    <path fill="currentColor"
+                      d="M12.727 3.687a1 1 0 1 0-1.454-1.374l-8.5 9a1 1 0 0 0 0 1.374l8.5 9.001a1 1 0 1 0 1.454-1.373L4.875 12z" />
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </button>
+          <div class="collapse" id="collapseExample2">
+            <div class="card card-body">
+              <p>
+                TBC X USAID ტექნოლოგიური განათლებისთვის პროგრამაში თითოეულ
+                კანდიდატს აქვს მხოლოდ ერთი კურსის გავლის შესაძლებლობა. გარდა
+                Information Security და Python კურსებისა, სადაც Basic დონის
+                გავლის შემდეგ შესაძლებელია სწავლის გაგრძელება Advance დონეზე.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="question">
+          <button class="question-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3"
+            aria-expanded="false" aria-controls="collapseExample3">
+            <div class="button-wrapper">
+              <h3 class="question-title">
+                რა ღირს სწავლა პროგრამის ფარგლებში?
+              </h3>
+              <div>
+                <svg id="arrow-3" class="arrow" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                  viewBox="0 0 24 24">
+                  <g transform="rotate(-90 12 12)">
+                    <path fill="currentColor"
+                      d="M12.727 3.687a1 1 0 1 0-1.454-1.374l-8.5 9a1 1 0 0 0 0 1.374l8.5 9.001a1 1 0 1 0 1.454-1.373L4.875 12z" />
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </button>
+          <div class="collapse" id="collapseExample3">
+            <div class="card card-body">
+              <p>
+                პროგრამის ფარგლებში კურსებზე სწავლა სრულიად დაფინანსებულია
+                თიბისი ბანკისა და USAID-ის მიერ.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer-wide-screen wrapper">
+    <div class="d-flex justify-content-between">
+      <div>
+        <img class="logo" src="files/tbc.webp" />
+        <div>
+          <a class="copyright" href="https://fsymbols.com/copyright/#google_vignette"><sup>&copy;</sup> 2023</a>
+          ყველა უფლება დაცულია
+        </div>
+        <button id="terms-and-conditions" class="" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          წესები და პირობები
+        </button>
+      </div>
+      <div class="d-flex flex-column justify-content-between">
+        <div class="icons d-flex justify-content-end">
+          <a href="https://www.facebook.com/tbcbank/"><img src="files/fb.webp" /></a>
+          <a href="https://www.youtube.com/channel/UCGk9R2LV2ywOL80r8Xc6xtQ"><img src="files/youtube.webp" /></a>
+        </div>
+        <a href="mailto:itacademy@tbcbank.com.ge" id="contact-us" class="btn">მოგვწერეთ</a>
+      </div>
+    </div>
+  </footer>
+  <footer class="footer-small-screen wrapper">
+    <img class="logo" src="files/tbc.webp" />
+    <div class="d-flex justify-content-between">
+      <a href="mailto:itacademy@tbcbank.com.ge" id="contact-us-mobile" class="btn">მოგვწერეთ</a>
+      <div class="icons d-flex justify-content-between">
+        <a href="https://www.facebook.com/tbcbank/"><img src="files/fb.webp" /></a>
+        <a href="https://www.youtube.com/channel/UCGk9R2LV2ywOL80r8Xc6xtQ"><img src="files/youtube.webp" /></a>
+      </div>
+    </div>
+    <button id="terms-and-conditions-mobile" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+      aria-controls="offcanvasRight">
+      წესები და პირობები
+    </button>
+    <div>
+      <a class="copyright" href="https://fsymbols.com/copyright/#google_vignette"><sup>&copy;</sup> 2023</a>
+      ყველა უფლება დაცულია
+    </div>
+  </footer>
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-body">
+      <div class="mt-4 me-4 d-flex justify-content-end">
+        <button class="p-0" type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+            <path fill="currentColor"
+              d="m6.4 18.308l-.708-.708l5.6-5.6l-5.6-5.6l.708-.708l5.6 5.6l5.6-5.6l.708.708l-5.6 5.6l5.6 5.6l-.708.708l-5.6-5.6z" />
+          </svg>
+        </button>
+      </div>
+      <div class="offcanvas-padding">
+        <h3>წესები და პირობები</h3>
+        <p>
+          წინამდებარე ვებ-გვერდის გამოყენება რეგულირდება სს „თიბისი
+          ბანკის“ &#40;საიდენტიფიკაციო ნომერი: 204854595, მისამართი:
+          თბილისი, კ. მარჯანიშვილის ქ. &#35;7&#41; მიერ დადგენილი
+          წესებითა და პირობებით.
+        </p>
+        <p>
+          ტერმინები „ბანკი“, „ჩვენ“ გულისხმობს სს „თიბისი ბანკს“ &#40;ასევე
+          მისი ჯგუფის წევრ მონათესავე, შვილობილ, აფილირებულ კომპანიებს&#41,
+          ხოლო ტერმინი „თქვენ“, „მომხმარებელი“ გულისხმობს ინდივიდს,
+          კომპანიას, ორგანიზაციულ წარმონაქმნს, რომელიც იყენებს ბანკის
+          წინამდებარე ვებ-გვერდს.
+        </p>
+        <p>
+          გთხოვთ, ყურადღებით გაეცნოთ წინამდებარე წესებსა და პირობებს, რომელიც არეგულირებს თქვენ მიერ ვებ-გვერდის
+          გამოყენების პირობებს. იმ შემთხვევაში, თუ არ ეთანხმებით წინამდებარე წესებსა და პირობებს, გთხოვთ, დატოვოთ ბანკის
+          ვებ-გვერდი.
+        </p>
+        <p>
+          ვებ-გვერდზე სტუმრობით, ან მასზე გამოქვეყნებული ინფორმაციის გამოყენებით, ადასტურებთ და სრულად ეთანხმებით
+          მითითებულ ყველა დანაწესს, რომელიც შესაძლოა ცალმხრივად შეიცვალოს სს „თიბისი ბანკის“ მიერ გარკვეული
+          პერიოდულობით, რაც დაფიქსირდება მოცემულ ვებ-გვერდზე და მასზე თქვენი სტუმრობა ნიშნავს შესაბამის პირობებზე
+          დათანხმებას.
+        </p>
+        <p>
+          ბანკის ვებ-გვერდზე მითითებული ინფორმაცია, უმეტეს შემთხვევაში, განკუთვნილია იმ პირებისთვის, რომლებიც
+          დაინტერესებულნი არიან საქართველოს ფინანსურ ბაზარზე მომსახურების მიღებით. შესაძლოა, ვებ-გვერდზე მითითებული
+          ინფორმაცია არ იყოს ხელმისაწვდომი მსოფლიოს ყველა გეოგრაფიულ არეალში, ბანკის გადაწყვეტილების შესაბამისად.
+        </p>
+        <p>
+          ბანკის ვებ-გვერდზე მითითებული გარკვეული ინფორმაციის გასაანალიზებლად, შესაძლოა დაგჭირდეთ შესაბამისი სფეროს
+          სპეციალისტის კონსულტაცია.
+        </p>
+        <p>
+          ბანკის ვებ-გვერდზე მითითებული კონკრეტული პროდუქტები/მომსახურება რეგულირდება სპეციალური საბანკო მომსახურების
+          ხელშეკრულებით.
+        </p>
+        <h4>ინფორმაციის სიზუსტე</h4>
+        <p>
+          ბანკი არ არის პასუხისმგებელი ვებ-გვერდზე მითითებული ინფორმაციის შინაარსის სიზუსტეზე, მიუხედავად ჩვენი დიდი
+          ძალისხმევისა მოგაწოდოთ უტყუარი ინფორმაცია. აღნიშნული არ წარმოადგენს დადასტურებას და გარანტიას, რომ ვებ-გვერდზე
+          მითითებული ინფორმაცია არის ზუსტი, უტყუარი და შესაფერისი მისი ნებისმიერი გამოყენებისთვის. ბანკის ვებ-გვერდზე
+          არსებული ნებისმიერი ინფორმაცია მითითებულია „როგორც არის“ (“As Is”) საწყისზე. შესაბამისად, ვებ-გვერდზე არსებული
+          ნებისმიერი ინფორმაციის გამოყენება სრულად წარმოადგენს მომხმარებლის პირად რისკს და ბანკი არ არის პასუხისმგებელი
+          ვებ-გვერდზე გამოქვეყნებული ინფორმაციის გამოყენებით დამდგარ ზიანზე. წინამდებარე დათქმა არ ეხება სს თიბისი
+          ბანკის ვებ-გვერდზე <a href="https://www.tbcbank.ge/web/ka">www.tbcbank.ge</a> განთავსებული ხელშეკრულების
+          შემადგენელ ნაწილებს.
+        </p>
+        <p>
+          ვებ-გვერდზე არსებული ინფორმაცია არ წარმოადგენს დაპირებას მომსახურებაზე/პროდუქტზე ან რაიმე სახის სახელშეკრულებო
+          ურთიერთობით ბანკის შებოჭვის საფუძველს.
+        </p>
+        <h4>პასუხისმგებლობის შეზღუდვა</h4>
+        <p>ბანკი და მისი შესაბამისი თანამშრომლები არ არიან პასუხისმგებელნი დამდგარი შედეგისათვის, რომელიც მოიცავს
+          პირდაპირ, არაპირდაპირ, სპეციალურ, შემთხვევით, მიზეზ-შედეგობრივ, არასახელშეკრულებო ზიანს, რაც გამოწვეულია
+          ვებ-გვერდზე მითითებული ინფორმაციის გამოყენებით. </p>
+        <p>
+          ბანკი არ აგებს პასუხს ვებ-გვერდის გამოყენებით გამოწვეულ რაიმე სახის ზიანზე, დანაკარგზე, თუნდაც ტექნიკური
+          შეფერხების, დეფექტის, ოპერაციის გაუქმება/შეჩერების, კომპიუტერული ვირუსის, ან სისტემის გაუმართაობის
+          შემთხვევაში.
+        </p>
+        <p>
+          ვებ-გვერდზე წარმოდგენილი შინაარსის ხელმისაწვდომობა შესაძლოა დამოკიდებული იყოს საძიებო სისტემის ფუნქციებსა და
+          შეზღუდვებზე. ბანკი არ იღებს პასუხისმგებლობას იმ შემთხვევებზე, თუ ვებ-გვერდის შემადგენელი გარკვეული
+          კომპონენტები ხელმიუწვდომელია თქვენთვის.
+        </p>
+        <h4>ვებ-გვერდის გამოყენება</h4>
+        <p>
+          ვებ-გვერდზე მითითებული ინფორმაცია განკუთვნილია მხოლოდ მომხმარებლების პირადი გამოყენებისთვის. თქვენ ვალდებული
+          ხართ, ვებ-გვერდზე განთავსებული ინფორმაცია, ასევე ვებ-გვერდის სტრუქტურა, გამოსახულება და დიაზინი არ გაავრცელოთ,
+          არ გადასცეთ, არ მოახდინოთ მისი ასლების დამზადება ან/და რეპროდუცირება (მათ შორის სოციალურ მედიაში) კომერციული
+          მიზნებისთვის, ბანკის წინასწარი წერილობითი თანხმობის გარეშე, რაც ჩვენს ერთპიროვნულ დისკრეციას წარმოადგენს.
+          ბანკის წინასწარი წერილობითი თანხმობა არ არის საჭირო, თუ ვებ-გვერდზე მითითებული ინფორმაციის/შინაარსის
+          გამოყენება ხდება ბანკის წინასწარ განცხადებული თანხმობის შესაბამისად, ან ასეთი ინფორმაცია გამოიყენება პირადი
+          მოხმარებისთვის, საგანმანათლებლო ან ინფორმაციული მიზნებისთვის.
+        </p>
+        <p>
+          ვებ-გვერდისა და სისტემის არაავტორიზებული გამოყენება (მათ შორის არარსებული დასახელებით და კოდით) სასტიკად
+          აკრძალულია. იქ, სადაც მოითხოვება რეგისტრაცია და პაროლის გამოყენება, თქვენ ვალდებული ხართ, კონფიდენციალურად
+          შეინახოთ და არ დაუშვათ მესამე პირის მიერ ვებ-გვერდზე წვდომის შესაძლებლობა თქვენ მაგივრად. რეგისტრაციისა და
+          პაროლის გამოყენების დროს, თქვენ აცნობიერებთ და ეთანხმებით, რომ ბანკმა შესაძლოა მოახდინოს რეგისტრაციისა და
+          პაროლის დეაქტივაცია და აღნიშნული ქმედებით შეზღუდოს ვებ-გვერდზე წვდომა იმ შემთხვევაში, თუ თქვენი მხრიდან ადგილი
+          აქვს წესებისა და პირობების დარღვევას.
+        </p>
+        <p>
+          შესაძლებელია, რომ ვებ-გვერდის რომელიმე კონკრეტული გვერდი შეიცავდეს წინამდებარე წესებისაგან და პირობებისაგან
+          განსხვავებულ დანაწესებს. მათ შორის კოლიზიის არსებობის შემთხვევაში, უპირატესობა ენიჭება წინამდებარე დანაწესებს.
+        </p>
+        <p>
+          ბანკის ვებ-გვერდის (მათ შორის ფორუმების) გამოყენებისას, აკრძალული გაქვთ უკანონო/თაღლითური ქმედება,
+          ცილისმწამებლური, სიძულვილის ენით საუბარი, ან სხვა არასასურველი ინფორმაციის განთავსება, გავრცელება/ტრანსმისია,
+          რაც შესაძლოა არღვევდეს მოქმედ კანონმდებლობას და რეგულაციას, ან ზიანს აყენებდეს ბანკის საქმიან რეპუტაციას.
+          ასევე გეკრძალებათ ვებ-გვერდისთვის ზიანის მიყენება ნებისმიერი სახის მავნე პროგრამის მეშვეობით („ტროას ცხენი,“
+          „ლოგიკური ბომბი“ ან სხვა მსგავსი ქმედებების განხორციელება).
+        </p>
+        <p>
+          თქვენს ერთპიროვნულ რისკს წარმოადგენს ვებ-გვერდზე მოსახვედრად გამოყენებული ნებისმიერი პროგრამული მოდულის
+          (სატელეფონო, კომპიუტერული და სხვა) გაუმართაობა.
+        </p>
+        <p>
+          იმ შემთხვევაში, თუ ვებ-გვერდზე წვდომა შეუძლებელი გახდება ბანკის ტექნიკური შეფერხების, ან ბანკისაგან
+          დამოუკიდებელი სხვა ნებისმიერი მიზეზით, ბანკი არ არის პასუხისმგებელი დამდგარ შედეგზე.
+        </p>
+        <h4>ინტელექტუალური საკუთრება</h4>
+        <p>
+          ვებ-გვერდზე, მის შინაარსზე, სტრუქტურასა და დიზაინზე სრულად ვრცელდება სს „თიბისი ბანკის“ საავტორო უფლება. სს
+          „თიბისი ბანკის“ ექსკლუზიური უფლებები ვრცელდება ასევე ბანკის მიერ შექმნილ და რეგისტრირებულ ინტელექტუალური
+          საკუთრების ნებისმიერ ობიექტზე, მათ შორის მის კუთვნილ სასაქონლო ნიშნებზე.
+        </p>
+        <p>
+          ბანკის საავტორო (<sup>&copy;</sup>) და სხვა ინტელექტუალური საკუთრების უფლებები ვრცელდება წინამდებარე
+          ვებ-გვერდსა და მასზე არსებულ მთელ შინაარსზე (პროდუქტებისა და მომსახურების ჩათვლით).
+        </p>
+        <p>
+          აკრძალულია წინამდებარე ვებ-გვერდზე მითითებული ნებისმიერი ინფორმაციის/შინაარსის, მათ შორის ლოგო, პიქტოგრამა,
+          გრაფიკა, სურათი, გამოსახულება, პატენტი, მომსახურების/სასაქონლო ნიშნები, დიზაინი, ბანკის მიერ შექმნილი
+          ვიზუალური მედია და სხვა ინტელექტუალური საკუთრების (რეგისტრირებული, ან არარეგისტრირებული) უნებართვო გამოყენება,
+          დამუშავება და გამოქვეყნება (მათ შორის სოციალურ მედიაში) ბანკის წინასწარი წერილობითი თანხმობის გარეშე. ბანკის
+          თანხმობა არ არის საჭირო, თუ წინამდებარე მონაცემების გამოყენება ხორციელდება არაკომერციული, პირადი მიზნებისთვის
+          და იმ შემთხვევებში, როცა წინასწარ თანხმობას არ ითვალიწინებს საქართველოს კანონმდებლობა, ან შესაბამისი
+          საერთაშორისო რეგულაცია.
+        </p>
+        <p>
+          ინტელექტუალური საკუთრების ვებ-გვერდზე მითითება არ ნიშნავს მომხმარებლისათვის მის გამოყენებაზე ლიცენზიის
+          მინიჭებას. ვებ-გვერდიდან მომხმარებლის მიერ ნებისმიერი ინფორმაციის კომერციული მიზნებისთვის გადმოწერა,ან ასლის
+          დამზადება ჩაითვლება საქართველოს კანონმდებლობის დარღვევად.
+        </p>
+        <p>
+          წესებსა და პირობებში მითითებული არცერთი დანაწესი არ განიჭებთ უფლებას, ან ლიცენზიას წინამდებარე მუხლში
+          ჩამოთვლილი ბანკის ინტელექტუალური საკუთრების გამოყენებაზე.
+        </p>
+        <p>
+          იმ შემთხვევაში, თუ ვებ-გვერდი მომხმარებლებს ანიჭებს ჩატის, ინტერაქციისა, თუ დიალოგის/დისკუსიის გამართვის
+          შესაძლებლობას, ვალდებულნი ხართ, წინამდებარე არხებში დააფიქსიროთ მხოლოდ ის ინფორმაცია, რომელზეც ფლობთ
+          ინტელექტუალურ საკუთრებას, ან გაქვთ შესაბამისი პირის თანხმობა. ამასთან ერთად, ბანკს ანიჭებთ უფლებას დაამუშაოს
+          (მათ შორის, გამოაქვეყნოს) თქვენ მიერ დაფიქსირებული ინფორმაცია კანონიერი, საკომუნიკაციო/საინფორმაციო
+          მიზნებისათვის.
+        </p>
+        <p>
+          ბანკის ჯგუფის წევრი კომპანიები შესაძლოა იყენებდნენ ბანკის სასაქონლო ნიშანს, დასახელებას და ლოგოტიპს, რომელიც
+          წარმოადგენს ბანკის საკუთრებას. ლაჟვარდის ფერი არის ბანკის კუთვნილი სასაქონლო ნიშნის შემადგენელი ნაწილი,
+          რომელიც რეგისტრირებულია დადგენილი წესით.
+        </p>
+        <p>
+          ბანკის ვებ-გვერდზე მითითებული კომპანიების სახელები, სასაქონლო ნიშნები, ლოგოები ეკუთვნის შესაბამის პირებს.
+        </p>
+        <h4>კონფიდენციალურობის დაცვა</h4>
+        <p>
+          სს „თიბისი ბანკი“ უზრუნველყოფს მისთვის მიწოდებულ კონფიდენციალური ინფორმაციის მაქსიმალურ დაცულობას
+          კანონმდებლობით დადგენილი წესით.
+        </p>
+        <p>
+          ბანკი მომხმარებლის პერსონალურ ინფორმაციას ითხოვს საჭიროებიდან გამომდინარე, იმ მოცულობით, რაც საჭიროა ეფექტური
+          მომსახურების გასაწევად საქართველოს კანონმდებლობით დადგენილი წესით. მომხმარებელს ნებისმიერ დროს შეუძლია
+          მოითხოვოს ინფორმაცია ბანკისგან მისი პერსონალური ინფორმაციის დამუშავების თაობაზე.
+        </p>
+        <p>
+          ვებ-გვერდზე თქვენი პერსონალური ინფორმაციის მითითებით, ბანკს ანიჭებთ უფლებას, დაამუშავოს და მარკეტინგული
+          მიზნებისთვის გამოიყენოს თქვენ მიერ დაფიქსირებული ინფორმაცია.
+        </p>
+        <p>
+          ბანკის მხრიდან კონფიდენციალური ინფორმაციის გადაცემა ხორციელდება თქვენი წინასწარი თანხმობით, ან კანონით
+          გათვალისწინებულ სხვა შემთხვევებში.
+        </p>
+        <p>
+          ბანკი მაქსიმალურად ზრუნავს თქვენი პირადი კონფიდენციალური ინფორმაციის უსაფრთხოებასა და გაუმჟღავნებლობაზე,
+          მაგრამ იმ ფაქტის გათვალისწინებით, რომ თქვენი მონაცემების დისტანციურად მოწოდების პროცესი არ არის დაშიფრული,
+          ბანკი იხსნის პასუხისმგებლობას მესამე პირების მიერ თქვენი მონაცემების არასანქცირებულ წვდომაზე ამ მონაცემების
+          ბანკისთვის მიწოდების დროს.
+        </p>
+        <p>
+          ბანკი მაქსიმალურად ზრუნავს თქვენი პირადი ინფორმაციის უსაფრთხოებასა და კონფიდენციალურობაზე, თუმცა იხსნის
+          პასუხისმგებლობას მესამე პირების მიერ აღნიშნული ინფორმაციის არასანქცირებულ წვდომაზე ამ მონაცემების ბანკისთვის
+          მიწოდების დროს (მათ შორის დისტანციური მიწოდებისას გამოყენებულ პლატფორმებზე?)
+        </p>
+        <p>
+          კონფიდენციალური ინფორმაციის ბანკისთვის მიწოდების დროს, მომხმარებელი ვალდებულია, არ მოახდინოს ისეთი ავტომატური
+          საშუალებების გამოყენება, რამაც შესაძლოა საფრთხე შეუქმნას ბანკის უსაფრთხოებასა და დაცულობას.
+        </p>
+        <p>
+          ვებ-გვერდის სტუმრობისას, თქვენ მიერ დატოვებული ნებისმიერი „ელექტრონული ნაკვალევი“, შესაძლოა გამოყენებულ იქნას
+          ბანკისთვის დამახასიათებელი ტექნიკური ოპერაციების განსახორციელებლად, სტატისტიკის საწარმოებლად, ან საიტის
+          ხარისხის გასაუმჯობესებლად.
+        </p>
+        <p>
+          ბანკის მიერ ადმინისტრაციული ფუნქციების ეფექტურად შესასრულებლად, შესაძლოა თქვენ მიერ გამოგზავნილ იქნას
+          პერსონალური მონაცემები ბანკის ელექტრონულ ფოსტაზე. გაცნობებთ, რომ ბანკი არ არის პასუხისმგებელი, გადაცემის
+          პროცესში, მესამე პირის არასანქცირებული ჩარევის შედეგად, აღნიშნული ინფორმაციის უკანონო მოპოვებაზე, ან იმ
+          ინფორმაციაზე, რომელიც მომხმარებელმა თავადვე გახადა საჯარო, ან გაავრცელა ნაკლებად უსაფრთხო ელექტრონული
+          საშუალებებით.
+        </p>
+        <p>
+          წინამდებარე წესებსა და პირობებზე დათანხმებით, მომხმარებელი ადასტურებს ბანკისთვის მინიჭებულ უფლებას, ბანკი
+          დაუკავშირდეს ან/და გაუგზავნოს მომხმარებელს შეტყობინება (მათ შორის, ელექტრონული ფორმით: მოკლე ტექსტური
+          შეტყობინება, ელექტრონული ფოსტა) ვებ-გვერდზე მითითებული პროდუქტისა, თუ მომსახურების თაობაზე.
+        </p>
+        <h4>ვებ-გვერდზე მითითებული ბმულები</h4>
+        <p>
+          ბანკი უფლებამოსილია ვებ-გვერდზე მიუთითოს ჰიპერბმულები, მესამე პირის მფლობელობაში არსებული ვებ-გვერდების
+          ბმულები, თქვენივე ინფორმირებულობის უზრუნველსაყოფად.
+        </p>
+        <p>
+          მესამე პირის მფლობელობაში არსებული ბმულები და მათზე მითითებული ინფორმაცია, არ ექვემდებარება ბანკის კონტროლს,
+          ხოლო მათზე მოცემული პროდუქტებისა და შინაარსის სიზუსტე არ წარმოადგენს ბანკის პასუხისმგებლობის საგანს.
+          შესაბამისად, თქვენ ხართ პასუხისმგებელი მესამე პირების რესურსებზე/ვებ-გვერდზე არსებული წესებისა და პირობების
+          გაცნობაზე.
+        </p>
+        <h4>ცვლილების განხორციელება</h4>
+        <p>
+          ბანკი უფლებამოსილია ცვლილება შეიტანოს წინამდებარე წესებსა და პირობებში მომხმარებელთათვის წინასწარი
+          შეტყობინების გარეშე.
+        </p>
+        <p>
+          მომხმარებელი პასუხისმგებელია რეგულარულად გაეცნოს წინამდებარე წესებსა და პირობებს. თქვენ მიერ ვებ-გვერდზე
+          სტუმრობა/მითითებული ინფორმაციის გამოყენება ავტომატურად ნიშნავს თქვენს დათანხმებას წინამდებარე წესებისა და
+          პირობების მოთხოვნებზე.
+        </p>
+        <h4>მარეგულირებელი სამართალი და იურისდიქცია</h4>
+        <p>
+          წინამდებარე წესები და პირობები რეგულირდება საქართველოს კანონმდებლობით.
+        </p>
+        <p>
+          დავის წარმოშობის შემთხვევაში, საქმეს განიხილავს საქართველოს საერთო სასამართლოების სისტემა კანონმდებლობით
+          დადგენილი წესით.
+        </p>
+        <p>
+          წინამდებარე დანაწესების კონკრეტული ჩანაწერის ბათილობა არ იწვევს წესებისა და პირობების სხვა დათქმების
+          ბათილობას.
+        </p>
+        <h4>საკონტაქტო ინფორმაცია</h4>
+        <p>
+          ნებისმიერი კითხვის არსებობის შემთხვევაში, რაც უკავშირდება წინამდებარე წესებსა და პირობებს და ვებ-გვერდზე
+          მითითებულ ინფორმაციას, გთხოვთ, მოგვმართოთ წერილობითი სახით მისამართზე: თბილისიი, ატენის ქ. 2 ან მოგვწეროთ
+          ელექტრონული ფოსტის საშუალებით: <a class="mail"
+            href="mailto:itacademy@tbcbank.com.ge"><b>itacademy@tbcbank.com.ge</b></a>,
+        </p>
+        <p>
+          “სს „თიბისი ბანკის“ მომსახურებით სარგებლობისას მომხმარებელთა დაცვის, კიბერუსაფრთოებისა და კონფიდენციალურობის
+          დაცვის პრინციპები ხელმისაწვდომია ვებ-გვერდზე <a
+            href="https://www.tbcbank.ge/web/ka"><b>www.tbcbank.ge</b></a>”
+        </p>
+        <button class="close" type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+          დახურვა
+        </button>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
